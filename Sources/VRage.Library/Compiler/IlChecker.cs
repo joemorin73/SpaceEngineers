@@ -24,7 +24,7 @@ namespace VRage.Compiler
             AllowNamespaceOfTypeCommon(typeof(System.Linq.Enumerable));
             AllowNamespaceOfTypeCommon(typeof(System.Text.StringBuilder));
             AllowNamespaceOfTypeCommon(typeof(System.Text.RegularExpressions.Regex));
-            AllowNamespaceOfTypeModAPI(typeof(System.Timers.Timer));
+            //AllowNamespaceOfTypeModAPI(typeof(System.Timers.Timer));
             AllowNamespaceOfTypeCommon(typeof(System.Globalization.Calendar));
 
             //AllowedOperands.Add(typeof(System.MulticastDelegate), null); //delegates allowed directly in checking, delegates are harmless since you have to call or store something in it which is also checked

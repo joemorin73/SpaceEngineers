@@ -339,5 +339,16 @@ namespace Sandbox.ModAPI
         }
 
 
+        List<IMyGWTimer> m_Timers = new List<IMyGWTimer>();
+
+        IMyGWTimer IMyUtilities.NewTimer()
+        {
+            IMyGWTimer newTimer = new MyGWTimer();
+
+            m_Timers.Add(newTimer);
+
+            return newTimer;
+        }
+
     }
 }

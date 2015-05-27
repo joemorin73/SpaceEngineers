@@ -705,6 +705,9 @@
     <Compile Include="ModAPI\MyGpsCollection_ModAPI.cs" />
     <Compile Include="ModAPI\MyGps_ModAPI.cs" />
     <Compile Include="ModAPI\MyGridTerminalSystem_ModAPI.cs" />
+    <Compile Include="ModAPI\MyGWTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ModAPI\MyLargeTurretBase_ModAPI.cs" />
     <Compile Include="ModAPI\MyLaserAntenna_ModAPI.cs" />
     <Compile Include="ModAPI\MyVoxelShapes_ModAPI.cs" />

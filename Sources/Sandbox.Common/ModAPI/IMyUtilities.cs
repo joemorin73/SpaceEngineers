@@ -47,5 +47,10 @@ namespace Sandbox.ModAPI
         void SetVariable<T>(string name, T value);
         bool GetVariable<T>(string name, out T value);
 
+        /// <summary>
+        /// Allocates a "managed" timer object.
+        /// </summary>
+        /// <returns></returns>
+        IMyGWTimer NewTimer();
     }
 }
